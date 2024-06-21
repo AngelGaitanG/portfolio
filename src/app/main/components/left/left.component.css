@@ -1,0 +1,25 @@
+:host {
+    display: block;
+    background-color: darkcyan;
+    width: 50%;
+    height: 100vh;
+}
+.about-me {
+    padding: 20px;
+    color: white; /* Mejor contraste sobre darkcyan */
+}
+
+.about-me h2, .about-me h3 {
+    margin-top: 0;
+}
+
+.about-me ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-me ul li {
+    background: rgba(255, 255, 255, 0.1); /* Fondo transparente */
+    padding: 10px;
+    margin-bottom: 5px;
+}
