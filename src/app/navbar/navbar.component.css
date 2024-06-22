@@ -1,8 +1,9 @@
 :host {
     display: block;
-    background: darkblue;
+    backdrop-filter: blur(10px);
     width: 15%;
     height: 100vh;
+    box-shadow: 0 0 7px black;
 }
 .navbar-brand {
     display: block;
@@ -15,10 +16,10 @@
 }
 
 .navbar-brand span img {
-    border: 4px solid rgba(0, 0, 0, 0.253);
+    border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 50%;
     width: 100%;
-    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    box-shadow: 0 0 8px black;
 }
 .navbar-brand p {
     margin-top: 10px;
@@ -33,6 +34,7 @@
 }
 
 .navbar ul li{
+    color: white;
     padding: 15px 10px;
 }
 

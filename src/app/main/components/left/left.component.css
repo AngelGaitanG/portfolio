@@ -7,8 +7,8 @@
 }
 .about-me {
     padding: 20px;
-    color: white; /* Mejor contraste sobre darkcyan */
-    margin: auto;
+    color: white;
+    margin: 45px auto 0 auto;
 }
 
 .about-me h2 {
