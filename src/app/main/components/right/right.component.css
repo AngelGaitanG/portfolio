@@ -1,6 +1,58 @@
 :host {
     display: block;
-    background-color: darksalmon;
+    background-color: rgba(0, 0, 0, 0.048);
     width: 50%;
     height: 100vh;
+}
+
+.title{
+    color:white;
+    font-size: 24px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.projects{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.project {
+    width: 240px;
+    cursor: pointer;
+    position: relative;
+    transition: .4s ease;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.562);
+    z-index: 99;
+}
+
+.project img {
+    display: block;
+    width: 100%;
+}
+.project-info {
+    text-align: center;
+    scale: 0;
+    text-align: center;
+    color: white;
+    position: absolute;
+    z-index: 9;
+    bottom: 0;
+    padding: 5px;
+    background-color: gray;
+    transition: .3s ease;
+}
+.project:hover {
+    z-index: 999;
+    scale: 1.2;
+}
+
+.project:hover .project-info{
+    scale: 1;
 }
