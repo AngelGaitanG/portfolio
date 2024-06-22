@@ -1,14 +1,9 @@
 <div class="about-me">
-    <h2>About Me</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.</p>
-    <h3>Skills</h3>
-    <ul>
-        <li>JavaScript</li>
-        <li>Angular</li>
-        <li>CSS</li>
-        <li>HTML</li>
-        <!-- Añade más habilidades -->
+    <h2>Hi!, I'm Angel Gabriel</h2>
+    <p>Ayudo a mejorar visual y seguridad de proyectos asequibles. Especializado en código estructurado y profesional para garantizar estética y robustez. Éxitos incluyen diseño de bases de datos y APIs eficientes. Reduje carga de productos en un 40%. Interfaz rediseñada a la orden. Medidas de seguridad redujeron incidentes 50%. Comprometido con tu visión tecnológica, superando desafíos con precisión y creatividad. Método: enfoque estructurado, metas claras y comunicación eficaz.</p>
+    <h3>Tecnologies</h3>
+    <ul class="technologies-list">
+        <li *ngFor="let tecnology of tecnologies" class="tecnologies-item"><img [src]="'assets/images/tecnologies/' + tecnology + '.png'" alt="{{ tecnology }}">
+        </li>
     </ul>
-    <h3>Experience</h3>
-    <p>Describe tu experiencia laboral y proyectos importantes.</p>
 </div>
