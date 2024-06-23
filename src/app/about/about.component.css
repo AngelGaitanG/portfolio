@@ -2,9 +2,8 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
-    width: 87%;
+    width: 85%;
     background-color: rgba(0, 0, 0, 0.048);
-    transition: .5s ease;
     color: white;
     text-align: center;
     padding: 20px 120px;
@@ -12,7 +11,7 @@
 
 h1 {
     font-size: 40px;
-    margin: 10px 0;
+    margin: 30px 0;
 }
 
 p {
@@ -22,4 +21,34 @@ p {
 .skills {
     font-size: 30px;
     margin-top: 40px;
+}
+
+.skills-item {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: center;
+}
+.skills-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.skills-info div {
+    width: 100%;
+    height: 10px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.skills-info div span {
+    font-size: small;
+    display: block;
+    height: 100%;
+    width: 75%;
+    background-color: green;
 }

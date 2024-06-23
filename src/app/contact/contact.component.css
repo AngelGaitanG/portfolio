@@ -1,8 +1,92 @@
 :host {
     display: flex;
+    flex-direction: column;
     height: 100vh;
-    width: 87%;
+    width: 85%;
     background-color: rgba(0, 0, 0, 0.048);
     transition: .5s ease;
+    color: white;
+    padding: 20px 120px;
+    text-align: center;
 }
 
+h1 {
+    margin: 50px 0 70px 0;
+    font-size: xx-large;
+}
+.contact {
+    display: flex;
+}
+.info {
+    text-align: start;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.info h2 {
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+.info p {
+    margin: 0 0 10px 0;
+    font-size: large;
+
+}
+.contacts {
+    margin-top: 20px;
+}
+.item {
+    display: flex;
+    align-items: center;
+    width: 40px;
+}
+
+.item img {
+    display: block;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.form {
+    padding: 0 40px;   
+}
+.form h2 {
+
+    text-align: start;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: x-large;
+}
+.inputs input{
+    margin: 0 10px;
+    background-color: rgba(0, 0, 0, 0.301);
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    color: white;
+    width: 300px;
+}
+
+textarea {
+    width: 620px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.301);
+    border: 1px solid transparent;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 160px;
+    color: white;
+}
+
+button {
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.301);
+    border: 1px solid transparent;
+    color: white;
+    cursor: pointer;
+}
