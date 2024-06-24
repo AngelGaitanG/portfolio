@@ -35,10 +35,11 @@ p {
     flex-direction: column;
     align-items: center;
     margin: 10px;
+    font-size: 20px;
 }
 
 .skills-info div {
-    width: 100%;
+    width: 100px;
     height: 10px;
     background-color: white;
     border-radius: 20px;

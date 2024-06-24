@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
+
 
 @Component({
   selector: 'app-navbar',
@@ -9,5 +10,7 @@ import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
   styleUrl: './navbar.component.css'
 })
 export class NavbarComponent {
+  @Input() info: any
 
+  
 }

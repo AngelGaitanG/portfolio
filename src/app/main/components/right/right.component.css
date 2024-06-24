@@ -12,18 +12,37 @@
     text-align: center;
 }
 
-.projects{
+.projects {
     width: 100%;
-    padding: 20px;
+    height: calc(90vh - 80px);
+    padding: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: center;
-    gap: 20px;
-    overflow: hidden;
+    align-content: flex-start;
+    overflow-y: auto;
+    gap: 10px;
+}
+.projects::-webkit-scrollbar {
+    width: 12px; /* Ancho del scroll */
+}
+
+.projects::-webkit-scrollbar-track {
+    background: #f1f1f128; /* Color de fondo de la pista del scroll */
+    border-radius: 10px; /* Bordes redondeados de la pista */
+}
+
+.projects::-webkit-scrollbar-thumb {
+    background: #88888800; /* Color del pulgar del scroll */
+    border-radius: 5px; /* Bordes redondeados del pulgar */
+}
+
+.projects::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color del pulgar del scroll al pasar el mouse */
 }
 
 .project {
+    display: block;
     width: 240px;
     cursor: pointer;
     position: relative;
@@ -49,8 +68,9 @@
     transition: .3s ease;
 }
 .project:hover {
+    width: 240px;
     z-index: 999;
-    scale: 1.2;
+    scale: 1.3;
 }
 
 .project:hover .project-info{

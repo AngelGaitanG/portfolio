@@ -1,5 +1,5 @@
 import { CommonModule, NgFor } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-left',
@@ -9,6 +9,9 @@ import { Component } from '@angular/core';
   styleUrl: './left.component.css'
 })
 export class LeftComponent {
+  @Input() info: any;
+
+
   tecnologies = ["TypeScript", "NestJS", "PostgreSQL", "Github", "Git", "Angular", "JavaScript", "HTML", "CSS", "Node", "React", "mongoDB", "Express", "Docker",]
 
 }

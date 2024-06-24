@@ -7,7 +7,7 @@
     transition: .5s ease;
     color: white;
     text-align: center;
-    padding: 20px 120px;
+    padding: 20px 0px;
 }
 h1{
     margin: 50px 0 60px 0;
@@ -19,20 +19,24 @@ h1{
     flex-wrap: wrap;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .item {
-    width: 100px;
+    width: 300px;
     display: flex;
-    margin: 0 40px;
+    margin: 20px 40px;
 }
 
 .item img{
- width: 100%;
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
 }
 
 .text h2{
     font-size: larger;
+    margin-bottom: 10px;
 }
 .text p{
     font-size: small;

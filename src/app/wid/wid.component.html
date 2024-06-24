@@ -1,22 +1,10 @@
-<h1>Que hago?</h1>
+<h1>{{info.what_i_do.title}}</h1>
 <div class="container">
-    <div class="item">
-        <img src="https://cdn-icons-png.flaticon.com/512/1493/1493169.png">
+    <div class="item" *ngFor="let thing of info.what_i_do.things">
+        <img src="{{thing.icon}}">
         <div class="text">
-            <h2>Api rest</h2>
-            <p>Api rest ndsadjsakndjsakndsank</p>
-        </div>
-        <div class="item">
-            <img src="https://cdn-icons-png.flaticon.com/512/1493/1493169.png">
-            <div class="text">
-                <h2>Api rest</h2>
-                <p>Api rest ndsadjsakndjsakndsank</p>
-            </div>
-        <div class="item">
-        <img src="https://cdn-icons-png.flaticon.com/512/1493/1493169.png">
-        <div class="text">
-            <h2>Api rest</h2>
-            <p>Api rest ndsadjsakndjsakndsank</p>
+            <h2>{{thing.name}}</h2>
+            <p>{{thing.description}}</p>
         </div>
     </div>
 </div>
