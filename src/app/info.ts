@@ -8,6 +8,13 @@ export const INFO = {
         email: "angel.gaitan.ev@gmail.com",
         address: "Leon Lucero 7074",
         image: "https://avatars.githubusercontent.com/u/101560786?v=4",
+        navbar: {
+            home: "Inicio",
+            about: "Sobre mi",
+            what_i_do: "Lo que hago",
+            projects: "Proyectos",
+            contact: "Contacto"
+        },
         description: "Full Stack Web Developer",
         home: {
             greeting: "Hola!, Soy Angel Gaitan",
@@ -122,10 +129,27 @@ export const INFO = {
                 link: "https://github.com/angelgaitan/Portfolio"
     
             }
-        ]
+        ],
+        contact: {
+            title: "Contactame",
+            address: {
+                title: "Direccion",
+                description: "El Volcan, SL 5701, ARG"
+            },
+            form: {
+                title: "Enviame un mensaje",
+                name: "nombre",
+                email: "Correo Electronico",
+                textarea: "Dime lo que necesitas"
+            },
+            phone: {
+                icon: "https://cdn-icons-png.flaticon.com/512/1493/1493169.png",
+                number: "2664647228"
+            }
+        }
     },
     english: {
-    name: "Einyel Gabriel",
+    name: "Angel Gabriel",
     lastName: "Gaitan",
     meeting: "Hello, I'm Einyel Gabriel",
     age: 24,
@@ -133,6 +157,13 @@ export const INFO = {
     email: "angel.gaitan.ev@gmail.com",
     address: "Leon Lucero 7074",
     image: "https://avatars.githubusercontent.com/u/101560786?v=4",
+    navbar: {
+        home: "Home",
+        about: "About me",
+        what_i_do: "What I do",
+        projects: "Projects",
+        contact: "Contact"
+    },
     description: "Full Stack Web Developer",
     home: {
         greeting: "Hello! I'm Angel Gaitan",
@@ -241,6 +272,23 @@ export const INFO = {
             image: "https://avatars.githubusercontent.com/u/101560786?v=4",
             link: "https://github.com/angelgaitan/Portfolio"
         }
-    ]
+    ],
+    contact: {
+        title: "Get in Touch",
+        address: {
+            title: "Address",
+            description: "El Volcan, SL 5701, ARG"
+        },
+        form: {
+            title: "Send me a message",
+            name: "Name",
+            email: "Email",
+            textarea: "What do you need?"
+        },
+        phone: {
+            icon: "https://cdn-icons-png.flaticon.com/512/1493/1493169.png",
+            number: "2664647228"
+        }
+    }
 }
 }
