@@ -5,11 +5,31 @@
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.048);
 }
+
 #bg-video {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -1;
-}
+    position: fixed; /* Fija el video para que ocupe toda la pantalla */
+    top: 50%; /* Centra el video verticalmente */
+    left: 50%; /* Centra el video horizontalmente */
+    width: 100%; /* Hace que el video ocupe todo el ancho de la pantalla */
+    height: 100%; /* Hace que el video ocupe toda la altura de la pantalla */
+    object-fit: cover; /* Escala y recorta el video para llenar el contenedor */
+    transform: translate(-50%, -50%); /* Ajusta la posición del video para que esté centrado */
+    z-index: -1; /* Asegura que el video esté detrás de otros elementos */
+  }
+
+  button {
+    padding: 10px 15px;
+    background-color:rgba(25, 25, 112, 0.37);
+    color: white;
+    border-radius: 10px;
+    transition: .4s ease;
+    border: 1px solid transparent;
+    cursor: pointer;
+
+  }
+
+  button:hover {
+    background-color: rgba(25, 25, 112, 0.11);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.397);
+    border: 1px solid white;
+  }

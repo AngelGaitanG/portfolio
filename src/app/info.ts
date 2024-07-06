@@ -30,24 +30,24 @@ export const INFO = {
                 {
                     name: "API REST",
                     description: "Desarrollo aplicaciones que se comunican con una base de datos a través de servicios web RESTful, permitiendo interacciones eficientes y escalables con la base de datos.",
-                    icon: "https://cdn-icons-png.flaticon.com/512/1493/1493169.png"
+                    icon: "../assets/images/wid/api.png"
                 },
                 {
                     name: "Aplicaciones Backend",
                     description: "Desarrollo aplicaciones backend que gestionan los recursos del servidor y ofrecen servicios a las aplicaciones cliente, incluyendo el control de roles de usuario, autenticación, y otras funcionalidades críticas.",
-                    icon: "https://cdn-icons-png.flaticon.com/512/1493/1493169.png"
+                    icon: "../assets/images/wid/backend.png"
     
                 },
                 {
                     name: "Aplicaciones Frontend",
                     description: "Desarrollo aplicaciones frontend centradas en la interacción del usuario final, creando experiencias de usuario optimizadas y atractivas.",
-                    icon: "https://cdn-icons-png.flaticon.com/512/1493/1493169.png"
+                    icon: "../assets/images/wid/ui.png"
     
                 },
                 {
                     name: "Manejo de bases de datos",
                     description: "Diseño y gestiono bases de datos eficientes y seguras, asegurando la integridad de los datos y optimizando el rendimiento para soportar aplicaciones robustas y escalables.",
-                    icon: "https://cdn-icons-png.flaticon.com/512/1493/1493169.png"
+                    icon: "../assets/images/wid/sql.png"
                 }
                 ]
         },

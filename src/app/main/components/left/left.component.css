@@ -17,7 +17,7 @@
     font-size: 24px;
 }
 .about-me p{
-    padding: 0 20px;
+    padding: 0 15px;
     text-align: center;
     line-height: 1.7;
 }
@@ -57,6 +57,9 @@
 }
 
 .tecnologies-item img{
+    border-radius: 10px;
+
+
     position: absolute;
     top: 50%;
     left: 50%;

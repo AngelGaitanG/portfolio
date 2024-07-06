@@ -42,9 +42,18 @@ h1 {
     width: 40px;
 }
 
-.item img {
+img {
     display: block;
     width: 100%;
+    margin-right: 10px;
+}
+.street {
+    display: flex;
+    align-items: center;
+}
+.street img {
+    display: block;
+    width: 40px;
     margin-right: 10px;
 }
 
@@ -78,6 +87,7 @@ textarea {
     padding-left: 10px;
     height: 160px;
     color: white;
+    resize: none;
 }
 
 button {
