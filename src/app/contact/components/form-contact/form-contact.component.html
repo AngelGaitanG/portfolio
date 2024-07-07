@@ -1,0 +1,20 @@
+<div class="form">
+    <h2>{{info.contact.form.title}}</h2>
+    <form [formGroup]="messageForm" (ngSubmit)="onSubmit()">
+        <div class="inputs">
+            <div class="input-group">
+                <input type="text" placeholder="{{info.contact.form.name}}" formControlName="name" (input)="validateField('name')">
+                <div class="alert" *ngIf="messageForm.get('name')?.invalid && messageForm.get('name')?.touched">Nombre requerido</div>
+            </div>
+            <div class="input-group">
+                <input type="email" placeholder="{{info.contact.form.email}}" formControlName="email" (input)="validateField('email')">
+                <div class="alert" *ngIf="messageForm.get('email')?.invalid && messageForm.get('email')?.touched">Email requerido</div>
+            </div>
+        </div>
+        <div class="textarea-group">
+            <textarea placeholder="{{info.contact.form.textarea}}" formControlName="message" (input)="validateField('message')"></textarea>
+            <div class="alert" *ngIf="messageForm.get('message')?.invalid && messageForm.get('message')?.touched">Resumen requerido</div>
+        </div>
+        <button type="submit" [disabled]="!messageForm.valid">Enviar</button>
+    </form>
+</div>

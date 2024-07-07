@@ -1,0 +1,63 @@
+.form {
+    padding: 0 40px; 
+    width: 600px;  
+}
+.form h2 {
+    text-align: start;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: x-large;
+}
+.inputs {
+    display: flex;
+    gap: 20px;
+}
+.input-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.input-group input {
+    background-color: rgba(0, 0, 0, 0.301);
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    color: white;
+    width: 100%;
+}
+.textarea-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.textarea-group textarea {
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.301);
+    border: 1px solid transparent;
+    padding: 10px;
+    height: 160px;
+    color: white;
+    resize: none;
+}
+.alert {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+button {
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.301);
+    border: 1px solid transparent;
+    color: white;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+button:hover {
+    border: 1px solid white;
+    box-shadow: inset 0 0 4px white;
+}

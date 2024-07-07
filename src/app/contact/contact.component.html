@@ -13,15 +13,5 @@
             </div>
         </div>
     </div>
-    <div class="form">
-        <h2>{{info.contact.form.title}}</h2>
-        <form>
-            <div class="inputs">
-                <input type="text" placeholder="{{info.contact.form.name}}">
-                <input type="email" placeholder="{{info.contact.form.email}}">
-            </div>
-            <textarea name="" id="" placeholder="{{info.contact.form.textarea}}"></textarea>
-            <button>Enviar</button>
-        </form>
-    </div>
+    <app-form-contact [info]="info"></app-form-contact>
 </div>
