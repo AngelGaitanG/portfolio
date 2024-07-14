@@ -4,12 +4,14 @@
     height: 100vh;
     box-shadow: 0 0 7px black;
 }
+
 .navbar-brand {
     display: block;
     margin: 10px auto;
     width: 80%;
     text-align: center;
 }
+
 .navbar-brand span {
     border-radius: 50%;
 }
@@ -18,13 +20,15 @@
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 50%;
     width: 100%;
-    box-shadow: 0 0 8px black;
+    box-shadow: inset 0 0 5px black;
 }
+
 .navbar-brand p {
     margin-top: 10px;
     color: white;
     font-size: 1.5rem;
 }
+
 .navbar {
     display: block;
     margin: 40px auto 20px auto;
@@ -32,11 +36,12 @@
     text-align: center;
 }
 
-.navbar ul li{
+.navbar ul li {
     color: white;
     padding: 15px 0;
 }
-.navbar ul li a{
+
+.navbar ul li a {
     transition: .1s ease-in-out;
 
 }
@@ -56,6 +61,7 @@
     width: 25px;
     margin: 0 5px;
 }
+
 .activeNav {
     border-bottom: 3px solid white;
 }

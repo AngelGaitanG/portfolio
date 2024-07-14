@@ -1,1 +1,22 @@
-<p>works works!</p>
+<div *ngIf="!selectedProject" class="projects">
+    <div *ngFor="let project of projects" class="project" (click)="selectProject(project)">
+        <div class="project-info">
+            <img src="{{project.image}}">
+        </div>
+    </div>
+</div>
+
+<div *ngIf="selectedProject" class="projectSelected">
+    <button (click)="backToProjects()" style="position: absolute; top: 10px; left: 10px;">Back to all projects</button>
+    <div class="project-info">
+        <h2>{{ selectedProject.name }}</h2>
+        <p>{{ selectedProject.description }}</p>
+        <div class="links">
+            <a [href]="selectedProject.linkGithub" target="_blank">Github</a>
+            <a [href]="selectedProject.linkDeploy" target="_blank">Deploy</a>
+        </div>
+    </div>
+    <div class="project-image">
+        <img src="{{selectedProject.image}}" alt="{{selectedProject.name}}">
+    </div>
+</div>

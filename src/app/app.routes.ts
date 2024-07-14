@@ -20,6 +20,9 @@ export const routes: Routes = [
         path: 'works', component: WorksComponent
     },
     {
+        path: 'works/:projectName', component: WorksComponent
+    },
+    {
         path: 'contact', component: ContactComponent
     },
     {

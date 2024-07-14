@@ -7,7 +7,7 @@ export const INFO = {
         phone: +542664647228,
         email: "angel.gaitan.ev@gmail.com",
         address: "Leon Lucero 7074",
-        image: "https://avatars.githubusercontent.com/u/101560786?v=4",
+        image: "https://avatars.githubusercontent.com/u/155489277?v=4",
         navbar: {
             home: "Inicio",
             about: "Sobre mi",
@@ -99,35 +99,36 @@ export const INFO = {
                 name: "Personal Portfolio",
                 description: "Un portafolio personal que muestra mis proyectos, habilidades y experiencia profesional. Incluye una sección de proyectos destacados, un blog técnico y un formulario de contacto para facilitar la comunicación.",
                 image: "https://avatars.githubusercontent.com/u/101560786?v=4",
-                link: "https://github.com/angelgaitan/Portfolio"
+                linkGithub: "https://github.com/angelgaitan/Portfolio",
+                linkDeploy:"hola.com"
             },
             {
                 name: "Ecommerce BACKEND",
                 description: "Un backend robusto para una plataforma de ecommerce, que incluye la gestión de productos, categorías, usuarios, órdenes y pagos.",
                 image: "https://avatars.githubusercontent.com/u/101560786?v=4",
-                link: "https://github.com/angelgaitan/Portfolio"
-                
+                linkGithub: "https://github.com/angelgaitan/Portfolio",
+                linkDeploy:"hola.com"
             },
             {   
                 name: "Elecar",
                 description: "Una aplicación Full Stack de gestión de turnos para talleres automotrices. Permite a los usuarios programar y gestionar citas, realizar seguimientos de servicios, y recibir notificaciones.",
-                image: "https://avatars.githubusercontent.com/u/101560786?v=4",
-                link: "https://github.com/angelgaitan/Portfolio"
-                
+                image: "https://raw.githubusercontent.com/AngelGaitanG/Elecar---TurnManager/main/front/Concesionaria-turnos-HW3/png.png",
+                linkGithub: "https://github.com/AngelGaitanG/Elecar---TurnManager",
+                linkDeploy:"hola.com"
             },
             {   
                 name: "PelisAngel",
                 description: "Un proyecto pequeño que realiza peticiones HTTP a una API de películas para mostrar pósters y detalles de las películas.",
                 image: "https://avatars.githubusercontent.com/u/101560786?v=4",
-                link: "https://github.com/angelgaitan/Portfolio"
-                
+                linkGithub: "https://github.com/angelgaitan/Portfolio",
+                linkDeploy:"hola.com"
             },
             {
                 name: "My First Webpage",
                 description: "Este proyecto inicial demuestra habilidades básicas en HTML, CSS y JavaScript para crear una aplicación interactiva y funcional.",
                 image: "https://avatars.githubusercontent.com/u/101560786?v=4",
-                link: "https://github.com/angelgaitan/Portfolio"
-    
+                linkGithub: "https://github.com/angelgaitan/Portfolio",
+                linkDeploy:"hola.com"
             }
         ],
         contact: {
@@ -156,7 +157,7 @@ export const INFO = {
     phone: +542664647228,
     email: "angel.gaitan.ev@gmail.com",
     address: "Leon Lucero 7074",
-    image: "https://avatars.githubusercontent.com/u/101560786?v=4",
+    image: "https://avatars.githubusercontent.com/u/155489277?v=4",
     navbar: {
         home: "Home",
         about: "About me",
@@ -179,22 +180,22 @@ export const INFO = {
             {
                 name: "RESTful APIs",
                 description: "Develop applications that communicate with databases through RESTful web services, enabling efficient and scalable interactions with the database.",
-                icon: "https://cdn-icons-png.flaticon.com/512/1493/1493169.png"
+                icon: "../assets/images/wid/api.png"
             },
             {
                 name: "Backend Applications",
                 description: "Develop backend applications that manage server resources and provide services to client applications, including user role management, authentication, and other critical functionalities.",
-                icon: "https://cdn-icons-png.flaticon.com/512/1493/1493169.png"
+                icon: "../assets/images/wid/backend.png"
             },
             {
                 name: "Frontend Applications",
                 description: "Develop frontend applications focused on end-user interaction, creating optimized and engaging user experiences.",
-                icon: "https://cdn-icons-png.flaticon.com/512/1493/1493169.png"
+                icon: "../assets/images/wid/ui.png"
             },
             {
                 name: "Database Management",
                 description: "Design and manage efficient and secure databases, ensuring data integrity and optimizing performance to support robust and scalable applications.",
-                icon: "https://cdn-icons-png.flaticon.com/512/1493/1493169.png"
+                icon: "../assets/images/wid/sql.png"
             }
         ]
     },
@@ -257,8 +258,8 @@ export const INFO = {
         {
             name: "Elecar",
             description: "A Full Stack application for managing appointments at automotive workshops. Allows users to schedule and manage appointments, track services, and receive notifications.",
-            image: "https://avatars.githubusercontent.com/u/101560786?v=4",
-            link: "https://github.com/angelgaitan/Portfolio"
+            image: "https://raw.githubusercontent.com/AngelGaitanG/Elecar---TurnManager/main/front/Concesionaria-turnos-HW3/png.png",
+            link: "https://github.com/AngelGaitanG/Elecar---TurnManager"
         },
         {
             name: "PelisAngel",
