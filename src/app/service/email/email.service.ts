@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { EmailData } from './types/emailData.interface';
 
 @Injectable({
   providedIn: 'root'
@@ -10,8 +11,8 @@ export class EmailService {
 
   constructor(private http: HttpClient) {}
 
-  sendEmail(emailData: { name: string; email: string; message: string }){
-    return this.http.post<any>(this.apiUrl, emailData).subscribe((response) => {
+  sendEmail(EmailData: EmailData){
+    return this.http.post(this.apiUrl, EmailData).subscribe((response) => {
       console.log(response);
     });
   }

@@ -8,21 +8,13 @@
 
 #bg-video {
   position: fixed;
-  /* Fija el video para que ocupe toda la pantalla */
   top: 50%;
-  /* Centra el video verticalmente */
   left: 50%;
-  /* Centra el video horizontalmente */
   width: 100%;
-  /* Hace que el video ocupe todo el ancho de la pantalla */
   height: 100%;
-  /* Hace que el video ocupe toda la altura de la pantalla */
   object-fit: cover;
-  /* Escala y recorta el video para llenar el contenedor */
   transform: translate(-50%, -50%);
-  /* Ajusta la posición del video para que esté centrado */
   z-index: -1;
-  /* Asegura que el video esté detrás de otros elementos */
 }
 
 button {
