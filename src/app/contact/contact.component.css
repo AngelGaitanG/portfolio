@@ -62,3 +62,37 @@ img {
     width: 40px;
     margin-right: 10px;
 }
+
+@media screen and (max-width: 915px) {
+
+    .contact {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info {
+        width: 100%;
+        margin: 0 auto 20px auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .info div {
+        width: 300px;
+    }
+
+    .info div img {
+        width: 40px;
+    }
+
+    :host {
+        padding: 20px;
+    }
+
+    .form {
+        padding: 20px 0;
+    }
+
+}

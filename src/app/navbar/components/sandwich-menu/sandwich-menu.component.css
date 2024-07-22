@@ -1,0 +1,16 @@
+:host {
+    backdrop-filter: blur(10px);
+}
+
+.sandwich-menu ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.sandwich-menu li {
+    padding: 20px 0;
+    cursor: pointer;
+}

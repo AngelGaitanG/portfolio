@@ -1,25 +1,25 @@
 <a class="navbar-brand">
     <span>
-        <img src="{{info.image}}" alt="brand">
+        <img [src]="info.image" alt="brand">
     </span>
-    <p>{{info.name}}</p>
+    <p>{{ info.name }}</p>
 </a>
 <nav class="navbar">
     <ul>
         <li>
-            <a routerLink="index" routerLinkActive="activeNav">{{info.navbar.home}}</a>
+            <a routerLink="index" routerLinkActive="activeNav">{{ info.navbar.home }}</a>
         </li>
         <li>
-            <a routerLink="about" routerLinkActive="activeNav">{{info.navbar.about}}</a>
+            <a routerLink="about" routerLinkActive="activeNav">{{ info.navbar.about }}</a>
         </li>
         <li>
-            <a routerLink="what-i-do" routerLinkActive="activeNav">{{info.navbar.what_i_do}}</a>
+            <a routerLink="what-i-do" routerLinkActive="activeNav">{{ info.navbar.what_i_do }}</a>
         </li>
         <li>
-            <a routerLink="works" routerLinkActive="activeNav">{{info.navbar.projects}}</a>
+            <a routerLink="works" routerLinkActive="activeNav">{{ info.navbar.projects }}</a>
         </li>
         <li>
-            <a routerLink="contact" routerLinkActive="activeNav">{{info.navbar.contact}}</a>
+            <a routerLink="contact" routerLinkActive="activeNav">{{ info.navbar.contact }}</a>
         </li>
     </ul>
 </nav>
@@ -29,4 +29,7 @@
     <li><a href="#"><img src="assets/images/socials/linkedin.png" alt="LinkedIn"></a></li>
     <li><a href="#"><img src="assets/images/socials/logotipos.png" alt="Logotipos"></a></li>
 </ul>
-
+<div class="menu">
+    <img src="assets/images/menu.png" alt="menu" (click)="toggleMenu()">
+    <app-sandwich-menu class="sandwich-menu" [class.active]="isMenuOpen" />
+</div>

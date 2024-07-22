@@ -8,6 +8,7 @@
     padding: 20px;
     color: white;
     margin: 45px auto 0 auto;
+    z-index: -1;
 }
 
 .about-me h2 {
@@ -57,7 +58,6 @@
 
 .tecnologies-item:hover {
     transform: scale(1.5);
-    z-index: 9;
 }
 
 .tecnologies-item img {

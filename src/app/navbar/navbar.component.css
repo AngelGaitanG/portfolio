@@ -1,7 +1,8 @@
 :host {
-    backdrop-filter: blur(10px);
     height: 100vh;
+    backdrop-filter: blur(10px);
     box-shadow: 0 0 7px black;
+    position: relative;
 }
 
 .navbar-brand {
@@ -42,7 +43,6 @@
 
 .navbar ul li a {
     transition: .1s ease-in-out;
-
 }
 
 .socials {
@@ -65,12 +65,38 @@
     border-bottom: 3px solid white;
 }
 
+.menu {
+    display: none;
+    cursor: pointer;
+}
+
+.menu img {
+    filter: invert(100%);
+    width: 30px;
+}
+
+.sandwich-menu {
+    background-color: rgb(0, 0, 0, 0.7);
+    box-shadow: 0 0 7px black;
+    height: 100vh;
+    position: fixed;
+    top: 64px;
+    width: 0;
+    left: 0;
+    z-index: 9;
+    color: white;
+    overflow: hidden;
+    transition: width 0.2s ease;
+}
+
+/* media queries */
+
 @media screen and (max-width: 1200px) {
     :host {
-        width: 80%;
         display: flex;
         padding: 10px;
         justify-content: flex-start;
+        align-items: center;
     }
 
     .navbar-brand {
@@ -96,9 +122,28 @@
 
     .socials {
         display: flex;
-        position: inherit;
+        position: relative;
         width: 100px;
         margin: 10px;
     }
+}
 
+@media screen and (max-width: 915px) {
+    .navbar {
+        display: none;
+    }
+
+    .socials {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        margin: 10px;
+    }
+
+    .sandwich-menu.active {
+        position: fixed;
+        width: 180px;
+    }
 }
