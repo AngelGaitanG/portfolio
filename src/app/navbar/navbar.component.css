@@ -1,6 +1,5 @@
 :host {
     backdrop-filter: blur(10px);
-    width: 15%;
     height: 100vh;
     box-shadow: 0 0 7px black;
 }
@@ -64,4 +63,42 @@
 
 .activeNav {
     border-bottom: 3px solid white;
+}
+
+@media screen and (max-width: 1200px) {
+    :host {
+        width: 80%;
+        display: flex;
+        padding: 10px;
+        justify-content: flex-start;
+    }
+
+    .navbar-brand {
+        display: none;
+    }
+
+    .navbar {
+        margin: 0;
+        width: 700px;
+    }
+
+    .navbar ul {
+        display: flex;
+        width: 600px;
+    }
+
+    .navbar ul li {
+        padding: 15px 0px 15px 0px;
+        margin: 0 0 0 0;
+        font-size: 1.1rem;
+        width: 100%;
+    }
+
+    .socials {
+        display: flex;
+        position: inherit;
+        width: 100px;
+        margin: 10px;
+    }
+
 }

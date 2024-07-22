@@ -1,8 +1,6 @@
 :host {
     display: block;
     background-color: rgba(0, 0, 0, 0.048);
-    width: 50%;
-    height: 100vh;
 }
 
 .title {
@@ -14,7 +12,7 @@
 
 .projects {
     width: 100%;
-    height: calc(90vh - 80px);
+    height: calc(95vh - 80px);
     padding: 10px;
     display: flex;
     flex-wrap: wrap;

@@ -1,8 +1,6 @@
 :host {
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    width: 85%;
     background-color: rgba(0, 0, 0, 0.048);
     transition: .5s ease;
     color: white;
@@ -14,9 +12,11 @@ h1 {
     margin: 50px 0 70px 0;
     font-size: xx-large;
 }
+
 .contact {
     display: flex;
 }
+
 .info {
     text-align: start;
     width: 20%;
@@ -24,18 +24,22 @@ h1 {
     flex-direction: column;
     justify-content: flex-start;
 }
+
 .info h2 {
     font-size: x-large;
     margin-bottom: 20px;
 }
+
 .info p {
     margin: 0 0 10px 0;
     font-size: large;
 
 }
+
 .contacts {
     margin-top: 20px;
 }
+
 .item {
     display: flex;
     align-items: center;
@@ -47,13 +51,14 @@ img {
     width: 100%;
     margin-right: 10px;
 }
+
 .street {
     display: flex;
     align-items: center;
 }
+
 .street img {
     display: block;
     width: 40px;
     margin-right: 10px;
 }
-
