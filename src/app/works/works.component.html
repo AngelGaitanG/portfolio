@@ -13,7 +13,7 @@
         <p>{{ selectedProject.description }}</p>
         <div class="links">
             <a [href]="selectedProject.linkGithub" target="_blank">Github</a>
-            <a [href]="selectedProject.linkDeploy" target="_blank">Deploy</a>
+            <a [href]="selectedProject.linkDeploy" target="_blank" *ngIf="selectedProject.linkDeploy">Deploy</a>
         </div>
     </div>
     <div class="project-image">

@@ -96,39 +96,17 @@ export const INFO = {
         projectsTitle: "Mis Trabajos",
         projects: [
             {
-                name: "Personal Portfolio",
-                description: "Un portafolio personal que muestra mis proyectos, habilidades y experiencia profesional. Incluye una sección de proyectos destacados, un blog técnico y un formulario de contacto para facilitar la comunicación.",
-                image: "https://avatars.githubusercontent.com/u/101560786?v=4",
-                linkGithub: "https://github.com/angelgaitan/Portfolio",
-                linkDeploy:"hola.com"
-            },
-            {
                 name: "Ecommerce BACKEND",
                 description: "Un backend robusto para una plataforma de ecommerce, que incluye la gestión de productos, categorías, usuarios, órdenes y pagos.",
-                image: "https://avatars.githubusercontent.com/u/101560786?v=4",
-                linkGithub: "https://github.com/angelgaitan/Portfolio",
-                linkDeploy:"hola.com"
+                image: "https://raw.githubusercontent.com/AngelGaitanG/ecommerce/main/api.png",
+                linkGithub: "https://github.com/AngelGaitanG/ecommerce",
             },
             {   
                 name: "Elecar",
                 description: "Una aplicación Full Stack de gestión de turnos para talleres automotrices. Permite a los usuarios programar y gestionar citas, realizar seguimientos de servicios, y recibir notificaciones.",
                 image: "https://raw.githubusercontent.com/AngelGaitanG/Elecar---TurnManager/main/front/Concesionaria-turnos-HW3/png.png",
                 linkGithub: "https://github.com/AngelGaitanG/Elecar---TurnManager",
-                linkDeploy:"hola.com"
-            },
-            {   
-                name: "PelisAngel",
-                description: "Un proyecto pequeño que realiza peticiones HTTP a una API de películas para mostrar pósters y detalles de las películas.",
-                image: "https://avatars.githubusercontent.com/u/101560786?v=4",
-                linkGithub: "https://github.com/angelgaitan/Portfolio",
-                linkDeploy:"hola.com"
-            },
-            {
-                name: "My First Webpage",
-                description: "Este proyecto inicial demuestra habilidades básicas en HTML, CSS y JavaScript para crear una aplicación interactiva y funcional.",
-                image: "https://avatars.githubusercontent.com/u/101560786?v=4",
-                linkGithub: "https://github.com/angelgaitan/Portfolio",
-                linkDeploy:"hola.com"
+                linkDeploy:"https://elecar-turn-manager.vercel.app/"
             }
         ],
         contact: {
@@ -244,35 +222,18 @@ export const INFO = {
     projectsTitle: "Projects",
     projects: [
         {
-            name: "Personal Portfolio",
-            description: "A personal portfolio showcasing my projects, skills, and professional experience. Includes a section for featured projects, a technical blog, and a contact form for easy communication.",
-            image: "https://avatars.githubusercontent.com/u/101560786?v=4",
-            link: "https://github.com/angelgaitan/Portfolio"
-        },
-        {
-            name: "Ecommerce BACKEND",
+            name: "Ecommerce API",
             description: "A robust backend for an ecommerce platform, including product, category, user, order, and payment management.",
-            image: "https://avatars.githubusercontent.com/u/101560786?v=4",
-            link: "https://github.com/angelgaitan/Portfolio"
+            image: "https://raw.githubusercontent.com/AngelGaitanG/ecommerce/main/api.png",
+            linkGithub: "https://github.com/AngelGaitanG/ecommerce",
         },
         {
             name: "Elecar",
             description: "A Full Stack application for managing appointments at automotive workshops. Allows users to schedule and manage appointments, track services, and receive notifications.",
             image: "https://raw.githubusercontent.com/AngelGaitanG/Elecar---TurnManager/main/front/Concesionaria-turnos-HW3/png.png",
-            link: "https://github.com/AngelGaitanG/Elecar---TurnManager"
+            linkGithub: "https://github.com/AngelGaitanG/Elecar---TurnManager",
+            linkDeploy: "https://elecar-turn-manager.vercel.app/"
         },
-        {
-            name: "PelisAngel",
-            description: "A small project that makes HTTP requests to a movies API to display movie posters and details.",
-            image: "https://avatars.githubusercontent.com/u/101560786?v=4",
-            link: "https://github.com/angelgaitan/Portfolio"
-        },
-        {
-            name: "My First Webpage",
-            description: "This initial project demonstrates basic skills in HTML, CSS, and JavaScript to create an interactive and functional application.",
-            image: "https://avatars.githubusercontent.com/u/101560786?v=4",
-            link: "https://github.com/angelgaitan/Portfolio"
-        }
     ],
     contact: {
         title: "Get in Touch",
