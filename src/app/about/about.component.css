@@ -40,7 +40,7 @@ p {
 .skills-info div {
     width: 120px;
     height: 15px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.288);
     border-radius: 20px;
     overflow: hidden;
     display: flex;
@@ -52,7 +52,14 @@ p {
     display: block;
     height: 100%;
     width: 75%;
-    background-color: green;
+    background: linear-gradient(to left, green, rgba(0, 255, 85, 0.466));
+
 }
 
-@media screen and (max-width: 1200px) {}
+@media screen and (max-width: 915px) {
+
+    :host {
+        padding: 30px;
+    }
+
+}

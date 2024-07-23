@@ -1,7 +1,3 @@
-:host {
-    backdrop-filter: blur(10px);
-}
-
 .sandwich-menu ul {
     display: flex;
     flex-direction: column;
@@ -13,4 +9,8 @@
 .sandwich-menu li {
     padding: 20px 0;
     cursor: pointer;
+}
+
+.activeNav {
+    border-bottom: 3px solid white;
 }

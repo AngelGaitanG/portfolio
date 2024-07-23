@@ -122,3 +122,21 @@ button:hover {
 .projectSelected .project-image img:hover {
     box-shadow: 0 0 10px #E0E0E0;
 }
+
+@media screen and (max-width: 915px) {
+    .projectSelected {
+        padding-top: 80px;
+        padding-bottom: 20px;
+        flex-direction: column-reverse;
+    }
+
+    .projectSelected .project-info {
+        width: 100%;
+        height: auto;
+    }
+
+    .projectSelected .project-image {
+        width: 100%;
+        height: 300px;
+    }
+}
