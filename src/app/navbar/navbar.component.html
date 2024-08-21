@@ -1,35 +1,43 @@
-<a class="navbar-brand">
-    <span>
-        <img [src]="info.image" alt="brand">
-    </span>
-    <p>{{ info.name }}</p>
-</a>
-<nav class="navbar">
-    <ul>
-        <li>
-            <a routerLink="index" routerLinkActive="activeNav">{{ info.navbar.home }}</a>
-        </li>
-        <li>
-            <a routerLink="about" routerLinkActive="activeNav">{{ info.navbar.about }}</a>
-        </li>
-        <li>
-            <a routerLink="what-i-do" routerLinkActive="activeNav">{{ info.navbar.what_i_do }}</a>
-        </li>
-        <li>
-            <a routerLink="works" routerLinkActive="activeNav">{{ info.navbar.projects }}</a>
-        </li>
-        <li>
-            <a routerLink="contact" routerLinkActive="activeNav">{{ info.navbar.contact }}</a>
-        </li>
-    </ul>
-</nav>
-<ul class="socials">
-    <li><a href="#"><img src="assets/images/socials/github.png" alt="GitHub"></a></li>
-    <li><a href="#"><img src="assets/images/socials/instagram.png" alt="Instagram"></a></li>
-    <li><a href="#"><img src="assets/images/socials/linkedin.png" alt="LinkedIn"></a></li>
-    <li><a href="#"><img src="assets/images/socials/logotipos.png" alt="Logotipos"></a></li>
-</ul>
-<div class="menu">
-    <img src="assets/images/menu.png" alt="menu" (click)="toggleMenu()">
-    <app-sandwich-menu class="sandwich-menu" [class.active]="isMenuOpen" [info]="info" />
+<div class="container">
+
+    <a class="navbar-brand" routerLink="about">
+        <span>
+            <img [src]="info.image" alt="brand">
+        </span>
+        <!-- <p>{{ info.name }}</p> -->
+    </a>
+    <nav class="navbar">
+        <ul>
+            <li>
+                <a routerLink="index" routerLinkActive="activeNav">
+                    <img src="../../assets/images/menu-icons/home.svg" alt="home">
+                </a>
+            </li>
+            <li>
+                <a routerLink="about" routerLinkActive="activeNav">
+                    <img src="../../assets/images/menu-icons/user.svg" alt="about">
+                </a>
+            </li>
+            <li>
+                <a routerLink="what-i-do" routerLinkActive="activeNav">
+                    <img src="../../assets/images/menu-icons/laptop-mobile.svg" alt="what-i-do">
+                </a>
+            </li>
+            <li>
+                <a routerLink="works" routerLinkActive="activeNav">
+                    <img src="../../assets/images/menu-icons/edit-alt.svg" alt="projects">
+                </a>
+            </li>
+            <li>
+                <a routerLink="contact" routerLinkActive="activeNav">
+                    <img src="../../assets/images/menu-icons/comment-alt-dots.svg" alt="contact">
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="menu">
+        <img src="assets/images/menu.png" alt="menu" (click)="toggleMenu()">
+        <app-sandwich-menu class="sandwich-menu" [class.active]="isMenuOpen" [info]="info" />
+    </div>
 </div>
