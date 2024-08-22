@@ -8,11 +8,12 @@
 
 .container {
     border: 1px solid transparent;
-    backdrop-filter: blur(10px);
+    /* backdrop-filter: blur(10px); */
     border-radius: 30px;
-    width: 80px;
+    width: 100%;
     height: 100%;
     background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .navbar-brand {
@@ -52,10 +53,15 @@
 .navbar ul li {
     color: white;
     padding: 15px 0;
+
+}
+
+.navbar ul li a:hover {
+    filter: brightness(0.5) sepia(100%) saturate(3) hue-rotate(150deg) drop-shadow(0 0 10px rgb(175, 232, 235));
 }
 
 .navbar ul li a {
-    transition: .1s ease-in-out;
+    transition: .2s ease-in-out;
 }
 
 .navbar ul li a img {
@@ -81,7 +87,9 @@
 }
 
 .activeNav {
-    border-bottom: 3px solid white;
+    border-bottom: 3px solid;
+    filter: brightness(0.5) sepia(100%) saturate(3) hue-rotate(150deg) drop-shadow(0 0 10px rgb(255, 255, 255));
+
 }
 
 .menu {
@@ -105,7 +113,9 @@
     color: white;
     overflow: hidden;
     transition: width 0.2s ease;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+
 }
 
 .sandwich-menu.active {
@@ -117,9 +127,9 @@
 @media screen and (max-width: 1200px) {
     :host {
         display: flex;
-        padding: 10px;
         justify-content: flex-start;
         align-items: center;
+        padding: 0;
     }
 
     .navbar-brand {
@@ -152,6 +162,16 @@
 }
 
 @media screen and (max-width: 915px) {
+    :host {
+        width: 100%;
+
+    }
+
+    .container {
+
+        border-radius: 0;
+    }
+
     .navbar {
         display: none;
     }

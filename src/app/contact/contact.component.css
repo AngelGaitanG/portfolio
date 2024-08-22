@@ -1,11 +1,11 @@
 :host {
     display: flex;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.048);
     transition: .5s ease;
     color: white;
     padding: 20px 120px;
     text-align: center;
+    height: 100vh;
 }
 
 h1 {

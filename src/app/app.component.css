@@ -1,11 +1,15 @@
-/* src/app/app.component.css */
 :host {
   display: flex;
   flex-direction: row;
   height: 100vh;
+  /* Asegura que el host ocupe toda la altura de la pantalla */
+  width: 100vw;
+  /* Asegura que el host ocupe todo el ancho de la pantalla */
   background: url('../assets/back2.png') no-repeat;
   background-size: cover;
-
+  background-attachment: fixed;
+  overflow: auto;
+  /* Permite el scroll dentro del host */
 }
 
 
@@ -18,6 +22,7 @@ button {
   border: 1px solid transparent;
   cursor: pointer;
   z-index: 99999;
+  backdrop-filter: blur(10px);
 }
 
 button:hover {
@@ -29,21 +34,21 @@ button:hover {
 
 
 .container {
-  width: 85%;
   height: 100vh;
+  width: 100%;
 }
 
 @media screen and (max-width: 1200px) {
   :host {
     flex-direction: column;
+    align-items: center;
   }
 
   .navbar {
-    width: 100%;
     height: 64px;
     position: fixed;
-    background-color: rgba(0, 0, 0, 0.1);
     z-index: 99;
+    margin-top: 10px;
   }
 
   .container {
@@ -51,5 +56,17 @@ button:hover {
     height: auto;
     margin-top: 64px;
   }
+}
+
+@media screen and (max-width: 915px) {
+  :host {
+    align-items: start;
+  }
+
+  .navbar {
+    margin: 0;
+    border-radius: none;
+  }
+
 
 }

@@ -1,13 +1,29 @@
-<h1>{{info.about.title}}</h1>
-<p>{{info.about.description}}</p>
+<div class="info">
+    <h1>{{info.about.title}}</h1>
+    <p>{{info.about.description}}</p>
+    <ul>
+        <li class="socials"><a href="https://github.com/brunorodrig" target="_blank"><img
+                    src="../../assets/images/socials/github.svg" alt="github"></a></li>
+        <li class="socials"><a href="https://github.com/brunorodrig" target="_blank"><img
+                    src="../../assets/images/socials/linkedin.svg" alt="linkedin"></a></li>
+        <li class="socials"><a href="https://github.com/brunorodrig" target="_blank"><img
+                    src="../../assets/images/socials/instagram.svg" alt="instagram"></a></li>
+        <li class="socials"><a href="https://github.com/brunorodrig" target="_blank"><img
+                    src="../../assets/images/socials/discord.svg" alt="discord"></a></li>
+    </ul>
+</div>
 <div class="skills">
     <h2>{{info.skillsTitle}}</h2>
     <div class="skills-item">
 
         <div class="skills-info" *ngFor="let skill of info.skills">
             <p>{{skill.name}}</p>
-            <div><span [ngStyle]="{width: skill.level + '%'}">{{skill.level}}%</span></div>
+            <div class="skill-circle">
+                <div class="skill-level" [ngStyle]="{'--skill-level': skill.level + '%'}">
+                    <img src="{{skill.src}}" alt="">
+                </div>
+            </div>
         </div>
-        
+
     </div>
 </div>

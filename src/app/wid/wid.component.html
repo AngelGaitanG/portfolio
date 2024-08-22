@@ -1,10 +1,38 @@
-<h1>{{info.what_i_do.title}}</h1>
 <div class="container">
-    <div class="item" *ngFor="let thing of info.what_i_do.things">
-        <img src="{{thing.icon}}">
-        <div class="text">
-            <h2>{{thing.name}}</h2>
-            <p>{{thing.description}}</p>
-        </div>
-    </div>
+    <swiper-container loop="true" navigation="true" pagination="true" color="#fff">
+        <swiper-slide>
+            <h3>{{info.what_i_do.things[0].name}}</h3>
+            <div class="content">
+                <div class="data">
+                    <p>{{info.what_i_do.things[0].description}}</p>
+                    <ul>
+                    </ul>
+                </div>
+                <img src="{{info.what_i_do.things[0].icon}}">
+            </div>
+        </swiper-slide>
+        <swiper-slide>
+            <h3>{{info.what_i_do.things[1].name}}</h3>
+            <div class="content">
+                <div class="data">
+                    <p>{{info.what_i_do.things[1].description}}</p>
+                    <ul>
+                    </ul>
+                </div>
+                <img src="{{info.what_i_do.things[1].icon}}">
+            </div>
+        </swiper-slide>
+        <swiper-slide>
+            <h3>{{info.what_i_do.things[2].name}}</h3>
+            <div class="content">
+                <div class="data">
+                    <p>{{info.what_i_do.things[2].description}}</p>
+                    <ul>
+                    </ul>
+                </div>
+                <img src="{{info.what_i_do.things[2].icon}}">
+            </div>
+        </swiper-slide>
+
+    </swiper-container>
 </div>

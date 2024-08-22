@@ -1,12 +1,16 @@
-<h3 class="title">{{info.projectsTitle}}</h3>
-<div class="projects">
-    <div *ngFor="let project of info.projects" class="project" (click)="expandProject($event)">
-        <img src="{{project.image}}" alt="{{project.name}}">
-        <div class="project-info">
-            <h3>{{project.name}}</h3>
-            <p>{{project.description}}
-                <a [routerLink]="['/works', project.name]">View Details</a>
-            </p>
+<div class="container">
+    <h3 class="title">{{info.projectsTitle}}</h3>
+    <div class="projects">
+        <div *ngFor="let project of info.projects" class="project" (click)="expandProject($event)">
+            <img src="{{project.image}}" alt="{{project.name}}">
+            <div class="project-info">
+                <h3>{{project.name}}</h3>
+                <p>{{project.description}}
+                    <a [routerLink]="['/works', project.name]">View Details</a>
+                </p>
+            </div>
         </div>
+
     </div>
+
 </div>

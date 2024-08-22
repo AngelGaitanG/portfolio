@@ -18,37 +18,32 @@ export const INFO = {
         description: "Full Stack Web Developer",
         home: {
             greeting: "Hola!, Soy Angel Gaitan",
-            presentation: "Ayudo a mejorar visual y seguridad de proyectos asequibles. Especializado en código estructurado y profesional para garantizar estética y robustez. Éxitos incluyen diseño de bases de datos y APIs eficientes. Comprometido con tu visión tecnológica, superando desafíos con precisión y creatividad.",
+            presentation: "Ayudo a mejorar la visualización y seguridad de proyectos accesibles, especializándome en el desarrollo de aplicaciones web y móviles. Tengo experiencia en la creación de soluciones integrales que abarcan tanto el frontend como el backend. He desarrollado aplicaciones completas, desde el diseño de bases de datos y la implementación de APIs eficientes hasta el desarrollo de interfaces intuitivas y atractivas.",
         },
         about: {
             title: "Sobre mi",
             description: "¡Hola! Soy Angel Gaitan, un Desarrollador Web Full Stack dedicado y apasionado con una sólida formación en tecnologías tanto frontend como backend. Desde que era niño, me ha fascinado el funcionamiento interno de los videojuegos, lo que despertó mi interés por la programación y la tecnología. Soy conocido por mi tenacidad y habilidades para resolver problemas. Disfruto enfrentándome a desafíos complejos y encontrando soluciones eficientes. Mi enfoque hacia los proyectos es sistemático y organizado, asegurando que cada tarea se complete con precisión y atención al detalle. Creo en el poder del trabajo en equipo y me esfuerzo por crear un ambiente colaborativo y de apoyo en cada equipo del que formo parte."
         },
         what_i_do: {
-            title: "Que hago?",
+            title: "Lo que hago",
             things: [
                 {
-                    name: "API REST",
-                    description: "Desarrollo aplicaciones que se comunican con una base de datos a través de servicios web RESTful, permitiendo interacciones eficientes y escalables con la base de datos.",
+                    name: "Desarrollo de Aplicaciones Web",
+                    description: "Creación de aplicaciones web utilizando tecnologías como HTML, CSS, JavaScript, Angular y React. Desde el diseño de interfaces de usuario hasta la implementación de la lógica de negocio, asegurando una experiencia de usuario fluida y responsiva.",
                     icon: "../assets/images/wid/api.png"
                 },
                 {
                     name: "Aplicaciones Backend",
-                    description: "Desarrollo aplicaciones backend que gestionan los recursos del servidor y ofrecen servicios a las aplicaciones cliente, incluyendo el control de roles de usuario, autenticación, y otras funcionalidades críticas.",
+                    description: "Desarrollo de aplicaciones móviles utilizando frameworks como Ionic con Angular, optimizadas para dispositivos Android e iOS, asegurando una excelente experiencia de usuario y un rendimiento eficiente.",
                     icon: "../assets/images/wid/backend.png"
     
                 },
                 {
-                    name: "Aplicaciones Frontend",
-                    description: "Desarrollo aplicaciones frontend centradas en la interacción del usuario final, creando experiencias de usuario optimizadas y atractivas.",
+                    name: "Desarrollo de APIs y Servicios Backend",
+                    description: "Diseño e implementación de APIs RESTful y servicios backend utilizando NestJS, gestionando bases de datos SQL, autenticación, autorización, y asegurando la comunicación efectiva entre el frontend y backend.",
                     icon: "../assets/images/wid/ui.png"
     
                 },
-                {
-                    name: "Manejo de bases de datos",
-                    description: "Diseño y gestiono bases de datos eficientes y seguras, asegurando la integridad de los datos y optimizando el rendimiento para soportar aplicaciones robustas y escalables.",
-                    icon: "../assets/images/wid/sql.png"
-                }
                 ]
         },
         socials: [
@@ -58,42 +53,36 @@ export const INFO = {
         skills: [
             {
                 name: "HTML",
-                level: 90
+                level: 90,
+                src: "../assets/images/tecnologies/html5.svg"
             },
             {
                 name: "CSS",
-                level: 80
+                level: 80,
+                src: '../assets/images/tecnologies/css3-alt.svg'
             },
             {
                 name: "Javascript",
-                level: 80
-            },
-            {
-                name: "Angular",
-                level: 70
-            },
-            {
-                name: "React",
-                level: 60
-            },
-            {
-                name: "NestJS",
-                level: 80
-            },
-            {
-                name: "NodeJS",
-                level: 70
-            },
-            {
-                name: "MongoDB",
-                level: 90
+                level: 80,
+                src: "../assets/images/tecnologies/js.svg"
             },
             {
                 name: "PostgreSQL",
-                level: 80
+                level: 50,
+                src: "../assets/images/tecnologies/postgre.svg"
+            },
+            {
+                name: "Github",
+                level: 50,
+                src: "../assets/images/tecnologies/hubspot.svg"
+            },
+            {
+                name: "Docker",
+                level: 30,
+                src: "../assets/images/tecnologies/docker.svg"
             }
         ],
-        projectsTitle: "Mis Trabajos",
+        projectsTitle: "Proyectos",
         projects: [
             {
                 name: "Ecommerce BACKEND",
@@ -146,7 +135,7 @@ export const INFO = {
     description: "Full Stack Web Developer",
     home: {
         greeting: "Hello! I'm Angel Gaitan",
-        presentation: "I help improve visual and security aspects of affordable projects. Specialized in structured and professional code to ensure aesthetics and robustness. Successes include designing efficient databases and APIs. Committed to your technological vision, overcoming challenges with precision and creativity."
+        presentation: "I help enhance the visual appeal and security of accessible projects, specializing in the development of web and mobile applications. I have experience in creating comprehensive solutions that encompass both frontend and backend. I have developed complete applications, from designing databases and implementing efficient APIs to developing intuitive and attractive user interfaces."
     },
     about: {
         title: "About Me",
@@ -156,68 +145,56 @@ export const INFO = {
         title: "What I Do",
         things: [
             {
-                name: "RESTful APIs",
-                description: "Develop applications that communicate with databases through RESTful web services, enabling efficient and scalable interactions with the database.",
+                name: "Web Applications",
+                description: " evelop responsive and scalable web applications, focusing on user experience and functionality. Utilize modern web technologies like HTML, CSS, and JavaScript, along with frameworks such as Angular and React, to create dynamic and interactive user interfaces",
                 icon: "../assets/images/wid/api.png"
             },
             {
-                name: "Backend Applications",
-                description: "Develop backend applications that manage server resources and provide services to client applications, including user role management, authentication, and other critical functionalities.",
+                name: "Mobile Applications",
+                description: "Build cross-platform mobile applications using frameworks like Ionic, ensuring a seamless user experience across different devices. Implement responsive design and performance optimization to deliver high-quality mobile solutions",
                 icon: "../assets/images/wid/backend.png"
             },
             {
-                name: "Frontend Applications",
-                description: "Develop frontend applications focused on end-user interaction, creating optimized and engaging user experiences.",
+                name: "API and Backend Services Development",
+                description: "Design and develop RESTful APIs and backend services using Node.js and NestJS, ensuring secure and efficient communication between frontend and backend systems. Implement server-side logic, user authentication, and role management.",
                 icon: "../assets/images/wid/ui.png"
             },
-            {
-                name: "Database Management",
-                description: "Design and manage efficient and secure databases, ensuring data integrity and optimizing performance to support robust and scalable applications.",
-                icon: "../assets/images/wid/sql.png"
-            }
         ]
     },
     socials: [
         "https://github.com/angelgaitan", "https://linkedin.com/in/angel-gaitan", "https://instagram.com/angelgaitan", "https://twitter.com/angelgaitan"
     ],
     skillsTitle: "Skills",
-    skills: [
-        {
-            name: "HTML",
-            level: 90
-        },
-        {
-            name: "CSS",
-            level: 80
-        },
-        {
-            name: "Javascript",
-            level: 80
-        },
-        {
-            name: "Angular",
-            level: 70
-        },
-        {
-            name: "React",
-            level: 60
-        },
-        {
-            name: "NestJS",
-            level: 80
-        },
-        {
-            name: "NodeJS",
-            level: 70
-        },
-        {
-            name: "MongoDB",
-            level: 90
-        },
-        {
-            name: "PostgreSQL",
-            level: 80
-        }
+    skills: [{
+        name: "HTML",
+        level: 90,
+        src: "../assets/images/tecnologies/html5.svg"
+    },
+    {
+        name: "CSS",
+        level: 80,
+        src: '../assets/images/tecnologies/css3-alt.svg'
+    },
+    {
+        name: "Javascript",
+        level: 80,
+        src: "../assets/images/tecnologies/js.svg"
+    },
+    {
+        name: "PostgreSQL",
+        level: 50,
+        src: "../assets/images/tecnologies/postgre.svg"
+    },
+    {
+        name: "Github",
+        level: 50,
+        src: "../assets/images/tecnologies/hubspot.svg"
+    },
+    {
+        name: "Docker",
+        level: 30,
+        src: "../assets/images/tecnologies/docker.svg"
+    }
     ],
     projectsTitle: "Projects",
     projects: [
