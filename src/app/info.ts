@@ -85,6 +85,12 @@ export const INFO = {
         projectsTitle: "Proyectos",
         projects: [
             {
+                name: "WanderAura",
+                description: "Una plataforma Full Stack para la organización de experiencias de viaje personalizadas, que incluye viajes predefinidos, un sistema de votación basado en las preferencias de los usuarios y una red social para compartir experiencias de viaje.",
+                image: "https://raw.githubusercontent.com/AngelGaitanG/WanderAura-mobile/9b8481ebe85fa64c4512a515ae0b394f715e17f8/wa.png?token=BFCJH7L7DJNFZ2OEAM3FWMTGZB56A",
+                linkGithub: "https://github.com/AngelGaitanG/WanderAura-mobile"
+            },            
+            {
                 name: "Ecommerce BACKEND",
                 description: "Un backend robusto para una plataforma de ecommerce, que incluye la gestión de productos, categorías, usuarios, órdenes y pagos.",
                 image: "https://raw.githubusercontent.com/AngelGaitanG/ecommerce/main/api.png",
@@ -96,7 +102,14 @@ export const INFO = {
                 image: "https://raw.githubusercontent.com/AngelGaitanG/Elecar---TurnManager/main/front/Concesionaria-turnos-HW3/png.png",
                 linkGithub: "https://github.com/AngelGaitanG/Elecar---TurnManager",
                 linkDeploy:"https://elecar-turn-manager.vercel.app/"
-            }
+            },
+            {
+    "name": "WanderAura",
+    "description": "Una plataforma Full Stack para la organización de experiencias de viaje personalizadas, que incluye viajes predefinidos, un sistema de votación basado en las preferencias de los usuarios y una red social para compartir experiencias de viaje.",
+    "image": "https://raw.githubusercontent.com/AngelGaitanG/WanderAura-mobile/9b8481ebe85fa64c4512a515ae0b394f715e17f8/wa.png?token=BFCJH7L7DJNFZ2OEAM3FWMTGZB56A",
+    "linkGithub": "https://github.com/AngelGaitanG/WanderAura-mobile"
+}
+
         ],
         contact: {
             title: "Contactame",
@@ -199,6 +212,12 @@ export const INFO = {
     projectsTitle: "Projects",
     projects: [
         {
+            name: "WanderAura",
+            description: "A Full Stack platform for organizing personalized travel experiences, including pre-defined trips, a voting system for user preferences, and a social network for sharing travel experiences.",
+            image: "https://raw.githubusercontent.com/AngelGaitanG/WanderAura-mobile/9b8481ebe85fa64c4512a515ae0b394f715e17f8/wa.png?token=BFCJH7L7DJNFZ2OEAM3FWMTGZB56A",
+            linkGithub: "https://github.com/AngelGaitanG/WanderAura-mobile"
+        },
+        {
             name: "Ecommerce API",
             description: "A robust backend for an ecommerce platform, including product, category, user, order, and payment management.",
             image: "https://raw.githubusercontent.com/AngelGaitanG/ecommerce/main/api.png",
@@ -211,6 +230,7 @@ export const INFO = {
             linkGithub: "https://github.com/AngelGaitanG/Elecar---TurnManager",
             linkDeploy: "https://elecar-turn-manager.vercel.app/"
         },
+        
     ],
     contact: {
         title: "Get in Touch",
