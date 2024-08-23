@@ -64,3 +64,27 @@ swiper-slide h3 {
     }
 
 }
+
+@media screen and (max-width: 525px) {
+
+    .container {
+        padding: 15px;
+    }
+
+    swiper-container {
+        width: 300px;
+        height: fit-content;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .data {
+        width: 100%;
+    }
+
+    .data p {
+        margin-right: 0;
+    }
+}
