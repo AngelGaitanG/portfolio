@@ -10,7 +10,7 @@
     <button (click)="backToProjects()" style="position: absolute; top: 10px; left: 10px;">Back to all projects</button>
     <div class="project-info">
         <h2>{{ selectedProject.name }}</h2>
-        <p>{{ selectedProject.description }}</p>
+        <p>{{ selectedProject.largeDescription }}</p>
         <div class="links">
             <a [href]="selectedProject.linkGithub" target="_blank">Github</a>
             <a [href]="selectedProject.linkDeploy" target="_blank" *ngIf="selectedProject.linkDeploy">Deploy</a>

@@ -20,8 +20,8 @@
 .project {
     box-shadow: 0 0 10px black;
     cursor: pointer;
-    width: 45%;
-    height: 200px;
+    width: 30%;
+    height: 25%;
     margin: 10px;
     border-radius: 10px;
     overflow: hidden;
@@ -34,6 +34,11 @@
 
 .project-info {
     height: 100%;
+}
+
+.project-info p {
+    text-align: start;
+    line-height: 1.5;
 }
 
 .project-info img {

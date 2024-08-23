@@ -88,20 +88,23 @@ export const INFO = {
                 name: "WanderAura",
                 description: "Una plataforma Full Stack para la organización de experiencias de viaje personalizadas, que incluye viajes predefinidos, un sistema de votación basado en las preferencias de los usuarios y una red social para compartir experiencias de viaje.",
                 image: "https://raw.githubusercontent.com/AngelGaitanG/WanderAura-mobile/main/wa.png",
-                linkGithub: "https://github.com/AngelGaitanG/WanderAura-mobile"
+                linkGithub: "https://github.com/AngelGaitanG/WanderAura-mobile",
+                largeDescription: "WanderAura es una plataforma Full Stack para la organizacion de experiencias de viajes personalizables, que incluye viajes predefinidos, un sistema de votacion basado en las preferencias de los usuarios y una red social para compartir experiencias de viaje. Esté proyecto cuenta con un soporte en dispositivos moviles y una web propia. Esta aplicación te permite registrarte, iniciar sesion, subscribirte a un viaje y empezar a compartir experiencias de viaje. Tambien cuenta con una mini aplicacion para poder consultar el clima de la zona. Tecnologias utilizadas: Ionic, Angular, RJXS, Capacitors, HTML, JS, SCSS, PostgreSQL, Git, Git-Hub, Docker, NestJS, JWT, Bcrypt, TypeScript y más."
             },            
             {
                 name: "Ecommerce BACKEND",
                 description: "Un backend robusto para una plataforma de ecommerce, que incluye la gestión de productos, categorías, usuarios, órdenes y pagos.",
                 image: "https://raw.githubusercontent.com/AngelGaitanG/ecommerce/main/api.png",
                 linkGithub: "https://github.com/AngelGaitanG/ecommerce",
+                largeDescription : "Un backend robusto para una plataforma de ecommerce, que incluye la gestión de productos, categorías, usuarios, órdenes y pagos. La base de datos utilizada es PostgreSQL. Esté aplicacion servidor te permite revisar los productos del comercio, gestionar categorías, crear usuarios, crear o cancelar ordenes y realizar pagos. También cuenta con un sistema de autenticación y encriptación de contraseñas. Utiliza los siguientes tecnologias: NodeJS, Express, PostgreSQL, Git, Git-Hub, Docker, NestJS, JWT, Bcrypt, TypeScript."
             },
             {   
                 name: "Elecar",
                 description: "Una aplicación Full Stack de gestión de turnos para talleres automotrices. Permite a los usuarios programar y gestionar citas, realizar seguimientos de servicios, y recibir notificaciones.",
                 image: "https://raw.githubusercontent.com/AngelGaitanG/Elecar---TurnManager/main/front/Concesionaria-turnos-HW3/png.png",
                 linkGithub: "https://github.com/AngelGaitanG/Elecar---TurnManager",
-                linkDeploy:"https://elecar-turn-manager.vercel.app/"
+                linkDeploy:"https://elecar-turn-manager.vercel.app/",
+                largeDescription: "Una aplicación Full Stack de gestión de turnos para talleres automotrices. Permite a los usuarios programar y gestionar turnos, realizar seguimientos de servicios, y recibir notificaciones. También cuenta con un pequeño menu para poder cambiar tu foto perfil. La aplicacion cuenta con un diseño moderno para una mejor experiencia de usuario. Las tecnologias que usé son HTML, CSS, JavaScript, React, NodeJS, Express, MongoDB, PostgreSQL, Git, Git-Hub, y Vercel. "
             },
             
 
@@ -207,24 +210,28 @@ export const INFO = {
     projectsTitle: "Projects",
     projects: [
         {
-            name: "WanderAura",
-            description: "A Full Stack platform for organizing personalized travel experiences, including pre-defined trips, a voting system for user preferences, and a social network for sharing travel experiences.",
-            image: "https://raw.githubusercontent.com/AngelGaitanG/WanderAura-mobile/9b8481ebe85fa64c4512a515ae0b394f715e17f8/wa.png?token=BFCJH7L7DJNFZ2OEAM3FWMTGZB56A",
-            linkGithub: "https://github.com/AngelGaitanG/WanderAura-mobile"
-        },
-        {
-            name: "Ecommerce API",
-            description: "A robust backend for an ecommerce platform, including product, category, user, order, and payment management.",
-            image: "https://raw.githubusercontent.com/AngelGaitanG/ecommerce/main/api.png",
-            linkGithub: "https://github.com/AngelGaitanG/ecommerce",
-        },
-        {
-            name: "Elecar",
-            description: "A Full Stack application for managing appointments at automotive workshops. Allows users to schedule and manage appointments, track services, and receive notifications.",
-            image: "https://raw.githubusercontent.com/AngelGaitanG/Elecar---TurnManager/main/front/Concesionaria-turnos-HW3/png.png",
-            linkGithub: "https://github.com/AngelGaitanG/Elecar---TurnManager",
-            linkDeploy: "https://elecar-turn-manager.vercel.app/"
-        },
+    name: "WanderAura",
+    description: "A Full Stack platform for organizing personalized travel experiences, including pre-defined trips, a voting system based on user preferences, and a social network for sharing travel experiences.",
+    image: "https://raw.githubusercontent.com/AngelGaitanG/WanderAura-mobile/main/wa.png",
+    linkGithub: "https://github.com/AngelGaitanG/WanderAura-mobile",
+    largeDescription: "WanderAura is a Full Stack platform for organizing customizable travel experiences, including pre-defined trips, a voting system based on user preferences, and a social network for sharing travel experiences. This project supports mobile devices and has its own web version. This application allows you to register, log in, subscribe to a trip, and start sharing travel experiences. It also features a mini app to check the weather in the area. Technologies used: Ionic, Angular, RXJS, Capacitor, HTML, JS, SCSS, PostgreSQL, Git, GitHub, Docker, NestJS, JWT, Bcrypt, TypeScript, and more."
+},
+{
+    name: "Ecommerce BACKEND",
+    description: "A robust backend for an ecommerce platform, including product, category, user, order, and payment management.",
+    image: "https://raw.githubusercontent.com/AngelGaitanG/ecommerce/main/api.png",
+    linkGithub: "https://github.com/AngelGaitanG/ecommerce",
+    largeDescription: "A robust backend for an ecommerce platform, including product, category, user, order, and payment management. The database used is PostgreSQL. This server application allows you to review the store's products, manage categories, create users, create or cancel orders, and process payments. It also features an authentication system and password encryption. Technologies used: NodeJS, Express, PostgreSQL, Git, GitHub, Docker, NestJS, JWT, Bcrypt, TypeScript."
+},
+{
+    name: "Elecar",
+    description: "A Full Stack appointment management application for automotive workshops. It allows users to schedule and manage appointments, track services, and receive notifications.",
+    image: "https://raw.githubusercontent.com/AngelGaitanG/Elecar---TurnManager/main/front/Concesionaria-turnos-HW3/png.png",
+    linkGithub: "https://github.com/AngelGaitanG/Elecar---TurnManager",
+    linkDeploy: "https://elecar-turn-manager.vercel.app/",
+    largeDescription: "A Full Stack appointment management application for automotive workshops. It allows users to schedule and manage appointments, track services, and receive notifications. It also includes a small menu to change your profile picture. The application has a modern design for an enhanced user experience. Technologies used: HTML, CSS, JavaScript, React, NodeJS, Express, MongoDB, PostgreSQL, Git, GitHub, and Vercel."
+}
+
         
     ],
     contact: {
