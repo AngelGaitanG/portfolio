@@ -87,7 +87,7 @@ export const INFO = {
             {
                 name: "WanderAura",
                 description: "Una plataforma Full Stack para la organización de experiencias de viaje personalizadas, que incluye viajes predefinidos, un sistema de votación basado en las preferencias de los usuarios y una red social para compartir experiencias de viaje.",
-                image: "https://raw.githubusercontent.com/AngelGaitanG/WanderAura-mobile/9b8481ebe85fa64c4512a515ae0b394f715e17f8/wa.png?token=BFCJH7L7DJNFZ2OEAM3FWMTGZB56A",
+                image: "https://raw.githubusercontent.com/AngelGaitanG/WanderAura-mobile/main/wa.png",
                 linkGithub: "https://github.com/AngelGaitanG/WanderAura-mobile"
             },            
             {
@@ -103,12 +103,7 @@ export const INFO = {
                 linkGithub: "https://github.com/AngelGaitanG/Elecar---TurnManager",
                 linkDeploy:"https://elecar-turn-manager.vercel.app/"
             },
-            {
-    "name": "WanderAura",
-    "description": "Una plataforma Full Stack para la organización de experiencias de viaje personalizadas, que incluye viajes predefinidos, un sistema de votación basado en las preferencias de los usuarios y una red social para compartir experiencias de viaje.",
-    "image": "https://raw.githubusercontent.com/AngelGaitanG/WanderAura-mobile/9b8481ebe85fa64c4512a515ae0b394f715e17f8/wa.png?token=BFCJH7L7DJNFZ2OEAM3FWMTGZB56A",
-    "linkGithub": "https://github.com/AngelGaitanG/WanderAura-mobile"
-}
+            
 
         ],
         contact: {
