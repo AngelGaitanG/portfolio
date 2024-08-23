@@ -30,18 +30,18 @@ export const INFO = {
                 {
                     name: "Desarrollo de Aplicaciones Web",
                     description: "Creación de aplicaciones web utilizando tecnologías como HTML, CSS, JavaScript, Angular y React. Desde el diseño de interfaces de usuario hasta la implementación de la lógica de negocio, asegurando una experiencia de usuario fluida y responsiva.",
-                    icon: "../assets/images/wid/api.png"
+                    icon: "../assets/images/wid/ui.png"
                 },
                 {
-                    name: "Aplicaciones Backend",
+                    name: "Aplicaciones Moviles",
                     description: "Desarrollo de aplicaciones móviles utilizando frameworks como Ionic con Angular, optimizadas para dispositivos Android e iOS, asegurando una excelente experiencia de usuario y un rendimiento eficiente.",
-                    icon: "../assets/images/wid/backend.png"
+                    icon: "../assets/images/wid/ui.png"
     
                 },
                 {
                     name: "Desarrollo de APIs y Servicios Backend",
                     description: "Diseño e implementación de APIs RESTful y servicios backend utilizando NestJS, gestionando bases de datos SQL, autenticación, autorización, y asegurando la comunicación efectiva entre el frontend y backend.",
-                    icon: "../assets/images/wid/ui.png"
+                    icon: "../assets/images/wid/backend.png"
     
                 },
                 ]
@@ -147,17 +147,17 @@ export const INFO = {
             {
                 name: "Web Applications",
                 description: " evelop responsive and scalable web applications, focusing on user experience and functionality. Utilize modern web technologies like HTML, CSS, and JavaScript, along with frameworks such as Angular and React, to create dynamic and interactive user interfaces",
-                icon: "../assets/images/wid/api.png"
+                icon: "../assets/images/wid/ui.png"
             },
             {
                 name: "Mobile Applications",
                 description: "Build cross-platform mobile applications using frameworks like Ionic, ensuring a seamless user experience across different devices. Implement responsive design and performance optimization to deliver high-quality mobile solutions",
-                icon: "../assets/images/wid/backend.png"
+                icon: "../assets/images/wid/ui.png"
             },
             {
                 name: "API and Backend Services Development",
                 description: "Design and develop RESTful APIs and backend services using Node.js and NestJS, ensuring secure and efficient communication between frontend and backend systems. Implement server-side logic, user authentication, and role management.",
-                icon: "../assets/images/wid/ui.png"
+                icon: "../assets/images/wid/backend.png"
             },
         ]
     },

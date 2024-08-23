@@ -3,7 +3,9 @@
     flex-direction: column;
     transition: .5s ease;
     color: white;
-    padding: 20px 120px;
+    padding: 20px;
+
+    align-items: center;
     text-align: center;
     height: 100vh;
 }

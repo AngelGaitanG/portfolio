@@ -46,9 +46,21 @@ swiper-slide h3 {
 }
 
 .content img {
-    width: 55%;
+    width: 40%;
     margin-left: 10px;
     display: flex;
     align-self: center;
     justify-content: center;
+}
+
+@media screen and (max-width: 915px) {
+    .container {
+        padding-top: 100px;
+    }
+
+    swiper-container {
+        width: 400px;
+        height: fit-content;
+    }
+
 }
